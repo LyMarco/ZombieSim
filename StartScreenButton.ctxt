@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=StartScreenButton
+comment0.text=\r\n\ The\ class\ for\ the\ click\ button\ of\ the\ simulation's\ start\ screen;\ a\ child\ class\ of\ the\ parent\ Button\ class.\r\n\ \r\n\ @author\ Jasper\ Tu\r\n\ @version\ Oct\ 2014\r\n
+comment1.params=
+comment1.target=StartScreenButton()
+comment1.text=\r\n\ Constructor\ for\ the\ "StartScreenButton"\ class.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ StartScreenButton\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

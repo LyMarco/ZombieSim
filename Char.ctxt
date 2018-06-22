@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Char
+comment0.text=\r\n\ The\ abstract\ parent\ class\ for\ all\ characters\ including\ humans\ and\ zombies.\r\n\ Including\ abstract\ methods\ like\ wander,\ avoid\ obstacle,\ etc.\r\n\ This\ abstract\ super\ class\ will\ outline\ the\ basic\ behaviour\ of\ all\ characters\ in\ the\ simulation.\r\n\ \r\n\ @author\ Tyler\ Zhang\r\n\ @version\ Sept\ 2014\r\n
+comment1.params=
+comment1.target=void\ wander()
+comment1.text=\r\n\ Make\ the\ character\ wander\ aroudn\ the\ map\ randomly.\r\n\ The\ character\ will\ move\ in\ a\ straight\ line,\ with\ a\ small\ possiblity\ of\ turning.\r\n
+comment2.params=goFromTop
+comment2.target=void\ avoidObs(boolean)
+comment2.text=\r\n\ If\ there\ is\ an\ obstcle\ in\ front\ of\ the\ character,\ avoid\ by\ walking\ above\ it\ or\ walking\ below\ it.\r\n\ If\ the\ character\ is\ encountering\ a\ edge\ or\ a\ base,\ turn\ around.\r\n\ \r\n\ @param\ goFromTop\ Whether\ the\ character\ will\ avoid\ the\ obstacle\ from\ top\ or\ from\ bottom.\r\n
+comment3.params=
+comment3.target=void\ avoidObs()
+comment3.text=\r\n\ If\ there\ is\ an\ obstcle\ in\ front\ of\ the\ character,\ avoid\ by\ walking\ above\ it\ (default).\r\n\ If\ the\ character\ is\ encountering\ a\ edge\ or\ a\ base,\ turn\ around.\r\n
+comment4.params=
+comment4.target=boolean\ ObsInWay()
+comment4.text=\r\n\ Check\ is\ there\ is\ obstacle\ in\ the\ path\ of\ the\ actor.\r\n\ \r\n\ @return\ boolean\ True\ if\ there\ is\ an\ obstacle\ in\ front\ of\ the\ character,\ else,\ return\ false.\r\n
+comment5.params=
+comment5.target=boolean\ atWorldEdge()
+comment5.text=\r\n\ Test\ if\ the\ actor\ is\ close\ to\ one\ of\ the\ edges\ of\ the\ world.\ Return\ true\ if\ it\ is.\r\n
+numComments=6

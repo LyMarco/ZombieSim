@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Projectile
+comment0.text=\r\n\ An\ abstract\ category\ for\ projectiles\ that\ stores\ common\ methods\ and\ variables\r\n\ \r\n\ @author\ Marco\ Ly\r\n\ @version\ Oct\ 2014\r\n
+comment1.params=
+comment1.target=boolean\ hasHit()
+comment1.text=\r\n\ Creating\ abstract\ hasHit\ class\ that\ will\ detect\ when\ the\ projectile\ hits\ \ certain\ objects\r\n\ \r\n\ @return\ boolean\ \ whether\ or\ not\ it\ has\ hit\ \r\n
+comment2.params=damage
+comment2.target=void\ hitObject(int)
+comment2.text=\r\n\ Inflicts\ damage\ on\ hit\ object\ if\ it\ is\ a\ zombie\ object\ then\ removes\ the\ projectile\r\n\ \r\n\ @param\ damage\ \ \ \ the\ damage\ to\ be\ dealt\r\n
+comment3.params=
+comment3.target=boolean\ outOfBounds()
+comment3.text=\r\n\ Returns\ true\ if\ it\ is\ out\ of\ the\ bounds\ of\ the\ world\r\n\ \r\n\ @return\ boolean\ \ whether\ or\ not\ the\ bullet\ has\ reached\ the\ edge\ of\ the\ world\r\n
+numComments=4

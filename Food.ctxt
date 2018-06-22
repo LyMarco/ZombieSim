@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Food
+comment0.text=\r\n\ Used\ to\ indicate\ the\ type\ of\ supply\ that\ the\ character\ is\ carrying.\r\n\ \r\n\ @author\ Tyler\ Zhang\r\n\ @version\ Oct\ 2014\r\n
+comment1.params=par
+comment1.target=Food(Scouts)
+comment1.text=\r\n\ Create\ a\ food\ icon\ that\ will\ follow\ its\ creator.\r\n\ \r\n\ @param\ par\ The\ parent\ actor\ that\ creates\ the\ icon.\r\n
+numComments=2

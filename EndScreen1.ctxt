@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=EndScreen1
+comment0.text=\r\n\ The\ ending\ screen\ in\ the\ case\ that\ all\ humans\ have\ perished\r\n\ \r\n\ @author\ Marco\ Ly\r\n\ @version\ OCt\ 2014\r\n
+comment1.params=
+comment1.target=EndScreen1()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ EndScreen1.\r\n
+numComments=2

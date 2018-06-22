@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Weapon
+comment0.text=\r\n\ The\ weapon\ icon\ will\ be\ used\ to\ indicate\ that\ the\ scout\ is\ currently\ carrying\ weapon\ supply.\r\n\ \r\n\ @author\ Tyler\ Zhang\r\n\ @version\ Oct\ 2014\r\n
+comment1.params=par
+comment1.target=Weapon(Scouts)
+comment1.text=\r\n\ Create\ a\ weapon\ icon\ that\ will\ follow\ its\ creator.\r\n\ \r\n\ @param\ par\ The\ parent\ actor\ that\ creates\ the\ icon.\r\n
+numComments=2

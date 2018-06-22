@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Soldiers
+comment0.text=\r\n\ The\ solider\ will\ be\ spawned\ to\ the\ screen\ whenever\ there\ are\ weapons\ available\ at\ the\ base.\ \r\n\ The\ soldiers\ will\ wander\ around\ the\ map\ searching\ for\ zombies,\ and\ will\ shoot\ to\ kill.\ \r\n\ If\ they\ fail\ they\ will\ be\ converted\ or\ eaten.\r\n\ \r\n\ @author\ Marco\ Ly,\ Ahrenn\ Sivananthan,\ Tyler\ Zhang\r\n\ @version\ Oct\ 2014\r\n
+comment1.params=base
+comment1.target=Soldiers(int)
+comment1.text=\r\n\ Create\ a\ soldier\ from\ a\ specific\ base\ with\ the\ ability\ to\ shoot\ zombies,\ die\ or\ be\ converted\ and\ keep\ track\ of\ their\ ammunition.\r\n\ \r\n\ @param\ base\ The\ number\ of\ the\ base.\r\n\ \r\n
+comment2.params=ZombieWorld
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\r\n\ Adds\ the\ icon\ related\ to\ the\ soldier\ to\ the\ ZombieWorld\ when\ the\ soldier\ is\ created\ in\ ZombieWorld\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ The\ soldier\ will\ continue\ to\ wander\ around\ the\ map\ after\ being\ spawned\ (only\ if\ weapons\ are\ available)\ until\ it\ sees\ zombies.\r\n\ Once\ it\ sees\ zombies\ it\ will\ shoot\ to\ kill,\ until\ it\ runs\ out\ of\ bullets.\ \r\n\ At\ that\ point\ they\ will\ attempt\ to\ return\ to\ their\ respective\ base.\r\n\ \r\n
+comment4.params=
+comment4.target=void\ shoot()
+comment4.text=\r\n\ Shooting\ method\ for\ soldier\ that\ generates\ a\ bullet,\ then\ adds\ the\ bullet\ object\ to\ a\ specific\ location.\r\n
+comment5.params=
+comment5.target=double\ getRadRotation()
+comment5.text=\r\n\ Returns\ the\ rotation\ of\ the\ gun\ in\ radians\ required\ to\ point\ towards\ the\ zombie\ target.\r\n\ \r\n\ @return\ double\ \ \ the\ rotation\ in\ radians\ of\ the\ soldier\r\n
+comment6.params=
+comment6.target=boolean\ findTargets()
+comment6.text=\r\n\ Finds\ zombie\ targets\ within\ range\ searchRange\r\n\ \r\n\ @return\ boolean\ \ Determines\ whether\ or\ not\ there\ are\ currently\ zombies\ in\ range\ of\ soldier.\r\n
+comment7.params=
+comment7.target=void\ updateImg()
+comment7.text=\r\n\ Update\ the\ image\ of\ the\ soldier,\ with\ any\ icons\r\n
+numComments=8

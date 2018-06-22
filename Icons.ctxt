@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Icons
+comment0.text=\r\n\ The\ icon\ that\ will\ be\ used\ to\ indicate\ the\ type\ of\ supply\ carried\ by\ a\ human.\r\n\ The\ icon,\ once\ created\ will\ be\ located\ above\ its\ creator.\r\n\ \r\n\ @author\ Tyler\ Zhang\r\n\ @version\ Oct\ 2014\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Set\ the\ location\ of\ the\ icon\ to\ be\ above\ the\ human\ character.\r\n
+comment2.params=
+comment2.target=Humans\ getTarget()
+comment2.text=\r\n\ Return\ the\ target\ that\ the\ icon\ is\ following.\r\n\ \r\n\ @return\ Humans\ The\ human\ object\ being\ followed\r\n
+numComments=3

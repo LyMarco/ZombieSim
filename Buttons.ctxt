@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Buttons
+comment0.text=\r\n\ Buttons\ parent\ class\ for\ the\ buttons\ of\ this\ simulation.\r\n\ \r\n\ @author\ Jasper\ Tu\r\n\ @version\ Oct\ 2014\r\n
+comment1.params=
+comment1.target=Buttons()
+comment1.text=\r\n\ The\ default\ constructor\ for\ the\ Buttons\ class.\r\n
+comment2.params=
+comment2.target=boolean\ isPressed()
+comment2.text=\r\n\ Returns\ a\ boolean\ that\ tells\ whether\ or\ not\ the\ button\ has\ been\ clicked.\r\n
+numComments=3

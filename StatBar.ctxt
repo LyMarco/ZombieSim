@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=StatBar
+comment0.text=\r\n\ Keeps\ track\ of\ the\ statistics\ about\ actors\ on\ screen\ currently.\r\n\ The\ displayed\ information\ includes\ scouts,\ zombies,\ and\ soldiers\ on\ screen.\r\n\ Scout\ death/alive\ count,\ zombie\ death/alive\ count,soldier\ death/alive\ count,\ and\ the\ total\ number\ of\ supplies\ dropped.\r\n\ The\ total\ stats\ bar\ will\ be\ located\ at\ the\ top\ of\ the\ world.\r\n\ The\ bar\ will\ be\ half-transparent\ until\ a\ mouse\ clicks\ on\ it.\r\n\ \r\n\ @author\ Tyler\ Zhang\r\n\ @version\ Oct\ 2014\r\n
+comment1.params=
+comment1.target=StatBar()
+comment1.text=\r\n\ Creates\ a\ stat\ bar\ that\ will\ be\ displaying\ multiple\ values.\ This\ is\ the\ base\ image.\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ method\ updates\ the\ image\ to\ display\ the\ updated\ statistics\ for\ each\ element\ described\ above.\r\n\ \r\n
+comment3.params=
+comment3.target=void\ updateImage()
+comment3.text=\r\n\ Updates\ the\ values\ of\ the\ general\ stat\ bar.\r\n
+comment4.params=
+comment4.target=void\ showStatistics()
+comment4.text=\r\n\ Sets\ the\ transparency\ of\ the\ statbar\ to\ be\ higher\ when\ it\ is\ being\ clicked.\r\n
+numComments=5

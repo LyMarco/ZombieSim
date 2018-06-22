@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Statistics
+comment0.text=\r\n\ The\ statistics\ display\ for\ a\ given\ base.\ The\ display\ information\ includes\ the\ population,\ food,\ and\ weapons\ \r\n\ inside\ the\ base.\ The\ statstics\ can\ be\ made\ visible\ by\ clicking\ the\ bar,\ which\ will\ be\ created\ to\ be\ on\ top\r\n\ of\ their\ respective\ bases\r\n\ \r\n\ @author\ Marco\ Ly\r\n\ @version\ Oct\ 2014\r\n
+comment1.params=population\ food\ weapons
+comment1.target=Statistics(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Statistics\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=population\ food\ weapons
+comment3.target=void\ updateValues(int,\ int,\ int)
+comment3.text=\r\n\ Mutator\ that\ updates\ the\ display\ with\ all\ information\ from\ their\ base\r\n\ \r\n\ @param\ population\ \ \ \ the\ population\ value\ given\ by\ the\ base\r\n\ @param\ food\ \ \ \ \ \ \ \ \ \ the\ food\ value\ given\ by\ the\ base\r\n\ @param\ weapons\ \ \ \ \ \ \ the\ weapons\ value\ given\ by\ the\ base\r\n
+comment4.params=
+comment4.target=void\ showStatistics()
+comment4.text=\r\n\ Makes\ the\ stats\ image\ visible\ or\ invisible\ when\ clicked\ on\ by\ the\ mouse\r\n
+comment5.params=
+comment5.target=void\ updateImage()
+comment5.text=\r\n\ Updates\ the\ object's\ image\ with\ any\ new\ values\ by\ clearing\ previous\ images\ and\ updating\ them\ with\ the\ new\ values\r\n
+numComments=6
